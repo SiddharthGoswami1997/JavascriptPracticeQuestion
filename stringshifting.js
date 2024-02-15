@@ -3,10 +3,12 @@
 let str="apple"
 let str1
 let str2
-for(let i =0;i<=1;i++ ){
+for(let i =0;i<=str.length;i++ ){
 
-     str1= str.substring(str.length-i)
-     str2= str.substring(0,str.length-i)
+     str1= str.slice(str.length-i)
+     str2= str.slice(0,str.length-i)
+    //  str1= str.substring(str.length-i)
+    //  str2= str.substring(0,str.length-i)
     
     }
     
