@@ -61,17 +61,28 @@
 
 
 // Christmas days left calculator
-let fund = new Date()
-console.log(fund)
-let delhi = fund.setFullYear(2023);
-// console.log(typeof delhi);
- let tday = fund.getDate();
-//  let tmonth = fund.getMonth();
-//  let tyear = fund.getFullYear();
+let today= new Date();
+let day = today.getDate()
+let Sday = today.getDay()
+let Mday = today.getMonth()
+let Yday = today.getFullYear
+console.log(day)
+console.log(Sday)
+console.log(Mday)
+let theday=Number(today)
+let christmas=today.setFullYear(2024,11,25)
+console.log(christmas)
+console.log(theday)
+let calculator= christmas-theday;
+console.log(calculator)
+let daysleft=(calculator/(1000*60*60*24))
+console.log("day before christmas",daysleft)
 
-console.log(tday)
-console.log(delhi)
-console.log(typeof fund.setFullYear())
 
-let ms = Date.now();
-console.log(ms)
+
+
+
+
+// // console.log(today-Number(today.setF(2023)))
+// console.log(Number(today)-today.setFullYear(2024,11,25))
+
