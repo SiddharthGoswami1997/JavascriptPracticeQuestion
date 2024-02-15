@@ -16,4 +16,5 @@ if(sum==str){
         console.log("Not a armstrong Number",str)
     
     }
-    
+    let x=["1",2];
+    console.log(typeof x)
