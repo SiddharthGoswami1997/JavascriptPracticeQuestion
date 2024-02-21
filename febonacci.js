@@ -26,17 +26,21 @@
 //         let c=a+b;
 //         a=b;
 //         b=c;
+
 //     console.log(c)
 // }
 
 
+// // let text = "We are the so-called "Vikings" from the north.";
+// let text2 = "We \bare the so-called \"Vikings\" from the north.";
+// console.log(text2);
+// let text1 = `We are the so-called "Vikings" from the north.`;
 
 
-
-
-
-
-
+// let text3 = "Please locate where 'locate' occurs!";
+// let index = text3.search("locate");
+let ares=[1,2,34,5,6,4]
+console.log(typeof ares)
 
 
 

@@ -53,7 +53,7 @@
 //     info("angel",23,"heaven@paradise.com")
 
 
-for(let i=1;i<=3;i++){
+for(let i=1;i<=2;i++){
 
 
 let fname= prompt("enter name")

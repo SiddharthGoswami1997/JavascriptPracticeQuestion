@@ -62,21 +62,22 @@
 
 // Christmas days left calculator
 let today= new Date();
-let day = today.getDate()
-let Sday = today.getDay()
-let Mday = today.getMonth()
-let Yday = today.getFullYear
-console.log(day)
-console.log(Sday)
-console.log(Mday)
+// let day = today.getDate()
+// let Sday = today.getDay()
+// let Mday = today.getMonth()
+// let Yday = today.getFullYear
+// console.log(day)
+// console.log(Sday)
+// console.log(Mday)
 let theday=Number(today)
 let christmas=today.setFullYear(2024,11,25)
-console.log(christmas)
-console.log(theday)
-let calculator= christmas-theday;
-console.log(calculator)
-let daysleft=(calculator/(1000*60*60*24))
-console.log("day before christmas",daysleft)
+// console.log("num",christmas);
+// console.log(christmas)
+// console.log(theday)
+// let calculator= christmas-theday;
+// console.log(calculator)
+// let daysleft=(calculator/(1000*60*60*24))
+// console.log("day before christmas",daysleft)
 
 
 
@@ -84,5 +85,14 @@ console.log("day before christmas",daysleft)
 
 
 // // console.log(today-Number(today.setF(2023)))
+console.log(Number(today.Date)-(today.setFullYear(2024,11,25)))
+console.log("vbvb", (today.setFullYear));
+console.log(Number(today));
 // console.log(Number(today)-today.setFullYear(2024,11,25))
 
+
+var myNum= 12;
+// console.log("new", myNum++);
+var myNum1 = ++myNum;
+console.log("newww", myNum1);
+console.log("myNum", ++myNum +myNum++);

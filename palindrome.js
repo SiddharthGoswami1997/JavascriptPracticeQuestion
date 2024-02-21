@@ -1,4 +1,4 @@
-let str="nayan"
+let str="121"
 let newStr=""
 for(let i=str.length;i>=1;i--){
 
